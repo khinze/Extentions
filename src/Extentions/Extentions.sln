@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{44BA2400-8BCC-4DC1-A619-0A76A25E14A0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extentions.WebApi.Sentry", "Extentions.WebApi.Sentry\Extentions.WebApi.Sentry.csproj", "{F7AB927A-CA10-4772-B6D8-511B429ECC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extentions.SignalR.Sentry", "Extentions.SignalR.Sentry\Extentions.SignalR.Sentry.csproj", "{7A10BBC2-BBA8-4E64-AD3E-C1DFDED2982F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7AB927A-CA10-4772-B6D8-511B429ECC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AB927A-CA10-4772-B6D8-511B429ECC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AB927A-CA10-4772-B6D8-511B429ECC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AB927A-CA10-4772-B6D8-511B429ECC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A10BBC2-BBA8-4E64-AD3E-C1DFDED2982F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A10BBC2-BBA8-4E64-AD3E-C1DFDED2982F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A10BBC2-BBA8-4E64-AD3E-C1DFDED2982F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A10BBC2-BBA8-4E64-AD3E-C1DFDED2982F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
